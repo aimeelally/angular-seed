@@ -1,1 +1,18 @@
-<p>This is the partial for view 1.</p>
+<div class="page-container">
+
+  <h1>All Pokemon</h1>
+  <div class="container">
+    <div ng-repeat="p in pokemon">
+      <p>{{p.name}}</p>
+    </div>
+  </div>
+
+  <h1>Psychic Pokemon</h1>
+
+  <h1>Create your own pokemon</h1>
+  <label for="name">Name</label>
+  <input id="name"/>
+  <label for="type">type</label>
+  <input id="type"/>
+  <div ng-click="add()">Add pokemon</div>
+</div>
