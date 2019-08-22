@@ -4567,7 +4567,9 @@ angular.module('myApp.view1', ['ngRoute'])
 
   $scope.pokemon = pokemon;
 
-  // display all the psychic pokemon 'nicely'
+  // make the existing list of pokemon look 'nice', see: nice-pokemon.png for example
+  
+  // pick a pokemon type and display those pokemon
   
   // create your own pokemon
 
